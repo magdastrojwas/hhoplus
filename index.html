@@ -3,14 +3,14 @@
 <head>
     <meta	charset="UTF-8">
     <meta	name="viewport"	content="width=device-width,	initial-scale=1.0">
-    <meta	http-equiv="X-UA-Compatible"	content="ie=edge">
+    <meta	http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HHO PLUS</title>
     <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous">
-    <link	rel="stylesheet"	href="css/style.css">
+    <link	rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
 <script
@@ -24,6 +24,48 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous">
 </script>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <span>
+                <img src="./images/logo.png" alt="logo" class="img-fluid navbar-brand"/>
+        </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">O producencie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase">produkty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Opinie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Media</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+</header>
+
+
+
+
+
+
+
 <div class="container-fluid">
     <nav class="row ">
         <div class="col-6">
@@ -88,30 +130,38 @@
     <div class="row justify-content-center border border-info">
         <h2>OPINIE</h2>
     </div>
-    <div class="row">
-        <div class="col-3">
-            <blockquote class="blockquote">
-                <p>Maszyna skutecznie czyści, również duże silniki. Dobry kontakt, porada ze strony sprzedawcy.</p>
-                <footer	class="blockquote-footer">Mateusz, Koszalin - użytkuje <kbd>ECC230</kbd></footer>
-            </blockquote>
+    <div class="card-deck">
+        <div class="card border border-info bg-light text-center">
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p>Maszyna skutecznie czyści, również duże silniki. Dobry kontakt, porada ze strony sprzedawcy.</p>
+                    <footer	class="blockquote-footer">Mateusz, Koszalin - użytkuje <kbd>ECC230</kbd></footer>
+                </blockquote>
+            </div>
         </div>
-        <div class="col-3">
-            <blockquote class="blockquote">
-                <p>Bezproblemowa obsługa, urządzenie już ponad pół roku daje niezły dodatkowy zarobek.</p>
-                <footer	class="blockquote-footer">Dariusz,Żagań- w warsztacie samochodowym użytkuje <kbd>ECC230</kbd></footer>
-            </blockquote>
+        <div class="card border border-info bg-light text-center">
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p>Bezproblemowa obsługa, urządzenie już ponad pół roku daje niezły dodatkowy zarobek.</p>
+                    <footer	class="blockquote-footer">Dariusz,Żagań- w warsztacie samochodowym użytkuje <kbd>ECC230</kbd></footer>
+                </blockquote>
+            </div>
         </div>
-        <div class="col-3">
-            <blockquote class="blockquote">
-                <p>Kupiłem używany aparat, który świetnie pracuje. Dziennie po 3-5 zadowolonych klientów. Solidna informacja od producenta oraz serwis.</p>
-                <footer	class="blockquote-footer">Adrian, Trzcianka - użytkuje <kbd>ECC230</kbd></footer>
-            </blockquote>
+        <div class="card border border-info bg-light text-center">
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p>Kupiłem używany aparat, który świetnie pracuje. Dziennie po 3-5 zadowolonych klientów. Solidna informacja od producenta oraz serwis.</p>
+                    <footer	class="blockquote-footer">Adrian, Trzcianka - użytkuje <kbd>ECC230</kbd></footer>
+                </blockquote>
+            </div>
         </div>
-        <div class="col-3">
-            <blockquote class="blockquote">
-                <p>Maszyna już u mnie blisko rok, dodatkowa usługa dla klientów.</p>
-                <footer	class="blockquote-footer">Adam,Piaseczno-instalacje LPG, użytkuje <kbd>ECC230</kbd></footer>
-            </blockquote>
+        <div class="card border border-info bg-light text-center">
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p>Maszyna już u mnie blisko rok, dodatkowa usługa dla klientów.</p>
+                    <footer	class="blockquote-footer">Adam,Piaseczno-instalacje LPG, użytkuje <kbd>ECC230</kbd></footer>
+                </blockquote>
+            </div>
         </div>
     </div>
 </div>
@@ -157,7 +207,6 @@
             <h3>KONTAKT</h3>
             <a href="tel:+48 695 146 032">tel. 695-146-032</a><br/>
             <a href="mailto:hhososnowiec@gmail.com">hhososnowiec@gmail.com</a>
-            <p></p>
         </div>
     </div>
 </div>
