@@ -4,7 +4,8 @@
 
 .my-jumbotron {
     width: 100%;
-    background-image: url(bg.jpg);
+    background-image: url(b_g.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 70vh;
