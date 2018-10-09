@@ -14,3 +14,9 @@
 .my-jumbotron-slogan {
     background: rgba(0,0,0,0.4);
 }
+
+.my-mission-text:after {
+    content: "";
+    display: block;
+;
+}
