@@ -17,12 +17,12 @@ header li {
     font-size: 1.5em;
 }
 
-header {
-    position: fixed;
-    top:0;
-    width: 100%;
-    overflow: hidden;
-}
+/*header {*/
+    /*position: fixed;*/
+    /*top:0;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+/*}*/
 
 
 .my-jumbotron {
