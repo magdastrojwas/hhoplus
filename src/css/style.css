@@ -47,5 +47,9 @@
     border: 1px solid #2F7B9D;
     width: 300px;
     margin: 30px auto;
+}
 
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 35px 0 rgba(211,221,237,0.5);
 }
