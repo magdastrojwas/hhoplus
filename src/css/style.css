@@ -41,5 +41,11 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
+.my-products-text:after {
+    content: "";
+    display: block;
+    border: 1px solid #2F7B9D;
+    width: 300px;
+    margin: 30px auto;
 
-
+}
