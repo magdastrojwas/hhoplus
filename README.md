@@ -9,7 +9,7 @@
 * [Contact](#contact)
 
 ## General info
-RWD website project for hho generators seller.
+RWD website project for hho generators seller: https://magdastrojwas.github.io/hhoplus/
 
 
 ## Technologies
