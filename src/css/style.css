@@ -1,3 +1,11 @@
+* {
+    font-family: 'Montserrat', sans-serif
+}
+
+p{
+    font-family: 'Hind', sans-serif
+}
+
 .photo {
     margin-left: 50%
 }
