@@ -167,18 +167,19 @@ header li {
 }
 
 #popup_info {
-    display: block;
-    width: 840px;
-    height: 500px;
+    display: flex;
     background-color: red;
-    border: 15px solid yellow;
+    border: 0.5em solid yellow;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    width: 50em;
 }
 
 #popup_info p {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     font-size: 3em;
     font-weight: bold;
-    color: yellow;
-    margin-top: 20%;
+    color: whitesmoke;
+
 }
