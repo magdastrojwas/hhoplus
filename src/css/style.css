@@ -173,7 +173,7 @@ header li {
     justify-content: center;
     align-items: center;
     height: 20em;
-    width: 50em;
+    max-width: 750px;
 }
 
 #popup_info p {
@@ -181,5 +181,28 @@ header li {
     font-size: 3em;
     font-weight: bold;
     color: whitesmoke;
+}
 
+@media only screen and (min-width: 320px) {
+    #popup_info {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #popup_info {
+        width: 295px;
+    }
+}
+
+@media only screen and (max-height: 320px) {
+    #popup_info {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 320px) {
+    #popup_info {
+        height: 30em;
+    }
 }
