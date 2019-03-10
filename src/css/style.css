@@ -99,6 +99,10 @@ header li {
     box-shadow: 0 20px 35px 0 rgba(211,221,237,0.5);
 }
 
+#info {
+    font-size: 2em;
+}
+
 #footer a{
     color: white;
 }
